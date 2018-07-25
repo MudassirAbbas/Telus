@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0820906F20E7BF3400F0E402 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820906E20E7BF3400F0E402 /* Utilities.swift */; };
+		083642942103C8A300484433 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083642932103C8A300484433 /* TabBarViewController.swift */; };
+		085117FA20E7C57400E6EC68 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085117F920E7C57400E6EC68 /* Extensions.swift */; };
+		085117FC20E7FE6500E6EC68 /* FileListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085117FB20E7FE6500E6EC68 /* FileListingVC.swift */; };
+		085117FE20E801C800E6EC68 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085117FD20E801C800E6EC68 /* FileModel.swift */; };
+		0851180020E8074500E6EC68 /* FileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085117FF20E8074500E6EC68 /* FileCell.swift */; };
+		0858E43820E7406700B2A51B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E43720E7406700B2A51B /* AppDelegate.swift */; };
+		0858E43A20E7406700B2A51B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E43920E7406700B2A51B /* ViewController.swift */; };
+		0858E43D20E7406700B2A51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0858E43B20E7406700B2A51B /* Main.storyboard */; };
+		0858E43F20E7406700B2A51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0858E43E20E7406700B2A51B /* Assets.xcassets */; };
+		0858E44220E7406700B2A51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0858E44020E7406700B2A51B /* LaunchScreen.storyboard */; };
+		0858E44D20E7406700B2A51B /* ConstructionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E44C20E7406700B2A51B /* ConstructionTests.swift */; };
+		0858E45820E7406700B2A51B /* ConstructionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E45720E7406700B2A51B /* ConstructionUITests.swift */; };
+		087B84A920E7BD4700F843D7 /* ALFWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B84A720E7BD4700F843D7 /* ALFWebService.swift */; };
+		087B84AA20E7BD4700F843D7 /* AFNWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B84A820E7BD4700F843D7 /* AFNWebService.swift */; };
+		0893B3CC20E7A4650000B3DE /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B3CB20E7A4650000B3DE /* DashboardVC.swift */; };
+		0893B3CE20E7B6940000B3DE /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B3CD20E7B6940000B3DE /* UploadVC.swift */; };
+		0893B59620E7B8230000B3DE /* NoActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B4B420E7B8210000B3DE /* NoActivityCell.swift */; };
+		0893B59720E7B8230000B3DE /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B4B520E7B8210000B3DE /* UIHelper.swift */; };
+		0893B59A20E7B8230000B3DE /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B4B820E7B8210000B3DE /* AppStoryboards.swift */; };
+		0893B59B20E7B8230000B3DE /* FFF_Tusj.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0893B4B920E7B8220000B3DE /* FFF_Tusj.ttf */; };
+		0893B59C20E7B8230000B3DE /* NoActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0893B4BA20E7B8220000B3DE /* NoActivityCell.xib */; };
+		08BDF0C520E7496900DECF80 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0BC20E7496800DECF80 /* WAButton.swift */; };
+		08BDF0C620E7496900DECF80 /* WATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0BD20E7496800DECF80 /* WATextField.swift */; };
+		08BDF0C720E7496900DECF80 /* WALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0BE20E7496800DECF80 /* WALabel.swift */; };
+		08BDF0C820E7496900DECF80 /* WAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0BF20E7496800DECF80 /* WAView.swift */; };
+		08BDF0C920E7496900DECF80 /* WAImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0C020E7496800DECF80 /* WAImageView.swift */; };
+		08BDF0CA20E7496900DECF80 /* WATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0C120E7496800DECF80 /* WATextView.swift */; };
+		08BDF0CB20E7496900DECF80 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0C220E7496800DECF80 /* CircleProgressView.swift */; };
+		08BDF0CC20E7496900DECF80 /* WACircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0C320E7496800DECF80 /* WACircularView.swift */; };
+		08BDF0CD20E7496900DECF80 /* WAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0C420E7496900DECF80 /* WAImage.swift */; };
+		08BDF0CF20E7945B00DECF80 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0CE20E7945B00DECF80 /* SignUpVC.swift */; };
+		08DCB9212103E53C0057D78D /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCB9202103E53C0057D78D /* DashboardCell.swift */; };
+		08DCB9242103F6890057D78D /* ProfileDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCB9232103F6890057D78D /* ProfileDetailVC.swift */; };
+		08DCB9262104023C0057D78D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCB9252104023C0057D78D /* ProfileVC.swift */; };
+		08DCB92A21048FDC0057D78D /* ProfileTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCB92921048FDC0057D78D /* ProfileTVCell.swift */; };
+		6FED0DA69A5366C169AC9F4D /* Pods_Telus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ED955CA2CF0EEBBB891DC9 /* Pods_Telus.framework */; };
+		BB3ECBC12A40263B690AD722 /* Pods_Construction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39355D00E08C00D50BBB925 /* Pods_Construction.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0858E44920E7406700B2A51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0858E42C20E7406700B2A51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0858E43320E7406700B2A51B;
+			remoteInfo = Construction;
+		};
+		0858E45420E7406700B2A51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0858E42C20E7406700B2A51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0858E43320E7406700B2A51B;
+			remoteInfo = Construction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0820906E20E7BF3400F0E402 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		083642932103C8A300484433 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0839307703B2BC3244033344 /* Pods-Construction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Construction.release.xcconfig"; path = "Pods/Target Support Files/Pods-Construction/Pods-Construction.release.xcconfig"; sourceTree = "<group>"; };
+		085117F920E7C57400E6EC68 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		085117FB20E7FE6500E6EC68 /* FileListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListingVC.swift; sourceTree = "<group>"; };
+		085117FD20E801C800E6EC68 /* FileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
+		085117FF20E8074500E6EC68 /* FileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCell.swift; sourceTree = "<group>"; };
+		0858E43420E7406700B2A51B /* Telus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0858E43720E7406700B2A51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0858E43920E7406700B2A51B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0858E43C20E7406700B2A51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0858E43E20E7406700B2A51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0858E44120E7406700B2A51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0858E44320E7406700B2A51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0858E44820E7406700B2A51B /* TelusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0858E44C20E7406700B2A51B /* ConstructionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructionTests.swift; sourceTree = "<group>"; };
+		0858E44E20E7406700B2A51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0858E45320E7406700B2A51B /* TelusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0858E45720E7406700B2A51B /* ConstructionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructionUITests.swift; sourceTree = "<group>"; };
+		0858E45920E7406700B2A51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087B84A720E7BD4700F843D7 /* ALFWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALFWebService.swift; sourceTree = "<group>"; };
+		087B84A820E7BD4700F843D7 /* AFNWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFNWebService.swift; sourceTree = "<group>"; };
+		0893B3CB20E7A4650000B3DE /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		0893B3CD20E7B6940000B3DE /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		0893B4B420E7B8210000B3DE /* NoActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoActivityCell.swift; sourceTree = "<group>"; };
+		0893B4B520E7B8210000B3DE /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		0893B4B820E7B8210000B3DE /* AppStoryboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
+		0893B4B920E7B8220000B3DE /* FFF_Tusj.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FFF_Tusj.ttf; sourceTree = "<group>"; };
+		0893B4BA20E7B8220000B3DE /* NoActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoActivityCell.xib; sourceTree = "<group>"; };
+		08BDF0BC20E7496800DECF80 /* WAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
+		08BDF0BD20E7496800DECF80 /* WATextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WATextField.swift; sourceTree = "<group>"; };
+		08BDF0BE20E7496800DECF80 /* WALabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WALabel.swift; sourceTree = "<group>"; };
+		08BDF0BF20E7496800DECF80 /* WAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAView.swift; sourceTree = "<group>"; };
+		08BDF0C020E7496800DECF80 /* WAImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAImageView.swift; sourceTree = "<group>"; };
+		08BDF0C120E7496800DECF80 /* WATextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WATextView.swift; sourceTree = "<group>"; };
+		08BDF0C220E7496800DECF80 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		08BDF0C320E7496800DECF80 /* WACircularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WACircularView.swift; sourceTree = "<group>"; };
+		08BDF0C420E7496900DECF80 /* WAImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAImage.swift; sourceTree = "<group>"; };
+		08BDF0CE20E7945B00DECF80 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		08DCB9202103E53C0057D78D /* DashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		08DCB9232103F6890057D78D /* ProfileDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailVC.swift; sourceTree = "<group>"; };
+		08DCB9252104023C0057D78D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		08DCB92921048FDC0057D78D /* ProfileTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTVCell.swift; sourceTree = "<group>"; };
+		424E62523871E7A0FFD678F5 /* Pods-Telus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Telus/Pods-Telus.release.xcconfig"; sourceTree = "<group>"; };
+		5F6EBA5763FF7677BF6FC468 /* Pods-Telus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telus/Pods-Telus.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5A9ED118369C5C5F18A1E0 /* Pods-Construction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Construction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Construction/Pods-Construction.debug.xcconfig"; sourceTree = "<group>"; };
+		C39355D00E08C00D50BBB925 /* Pods_Construction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Construction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4ED955CA2CF0EEBBB891DC9 /* Pods_Telus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0858E43120E7406700B2A51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3ECBC12A40263B690AD722 /* Pods_Construction.framework in Frameworks */,
+				6FED0DA69A5366C169AC9F4D /* Pods_Telus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858E44520E7406700B2A51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858E45020E7406700B2A51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083642922103C85400484433 /* MainTabView */ = {
+			isa = PBXGroup;
+			children = (
+				083642932103C8A300484433 /* TabBarViewController.swift */,
+			);
+			path = MainTabView;
+			sourceTree = "<group>";
+		};
+		0858E42B20E7406700B2A51B = {
+			isa = PBXGroup;
+			children = (
+				0858E43620E7406700B2A51B /* Telus */,
+				0858E44B20E7406700B2A51B /* ConstructionTests */,
+				0858E45620E7406700B2A51B /* ConstructionUITests */,
+				0858E43520E7406700B2A51B /* Products */,
+				76EDB4C867EE5EEDF56C4414 /* Pods */,
+				A4E33C51D16066F1B8D836B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0858E43520E7406700B2A51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0858E43420E7406700B2A51B /* Telus.app */,
+				0858E44820E7406700B2A51B /* TelusTests.xctest */,
+				0858E45320E7406700B2A51B /* TelusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0858E43620E7406700B2A51B /* Telus */ = {
+			isa = PBXGroup;
+			children = (
+				087B84A620E7BD3500F843D7 /* Network */,
+				0858E46520E7407600B2A51B /* Application */,
+				08BDF0B820E7488E00DECF80 /* Utilities */,
+				0858E46620E7408800B2A51B /* Controllers */,
+				0858E46720E7409900B2A51B /* Resources */,
+			);
+			path = Telus;
+			sourceTree = "<group>";
+		};
+		0858E44B20E7406700B2A51B /* ConstructionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0858E44C20E7406700B2A51B /* ConstructionTests.swift */,
+				0858E44E20E7406700B2A51B /* Info.plist */,
+			);
+			path = ConstructionTests;
+			sourceTree = "<group>";
+		};
+		0858E45620E7406700B2A51B /* ConstructionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0858E45720E7406700B2A51B /* ConstructionUITests.swift */,
+				0858E45920E7406700B2A51B /* Info.plist */,
+			);
+			path = ConstructionUITests;
+			sourceTree = "<group>";
+		};
+		0858E46520E7407600B2A51B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0858E43720E7406700B2A51B /* AppDelegate.swift */,
+				0858E44320E7406700B2A51B /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0858E46620E7408800B2A51B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08DCB9222103F66F0057D78D /* Profile */,
+				08DCB91F2103E5120057D78D /* Dashboard */,
+				083642922103C85400484433 /* MainTabView */,
+				0858E43920E7406700B2A51B /* ViewController.swift */,
+				08BDF0CE20E7945B00DECF80 /* SignUpVC.swift */,
+				0893B3CD20E7B6940000B3DE /* UploadVC.swift */,
+				085117FB20E7FE6500E6EC68 /* FileListingVC.swift */,
+				085117FD20E801C800E6EC68 /* FileModel.swift */,
+				085117FF20E8074500E6EC68 /* FileCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0858E46720E7409900B2A51B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0858E43B20E7406700B2A51B /* Main.storyboard */,
+				0858E43E20E7406700B2A51B /* Assets.xcassets */,
+				0858E44020E7406700B2A51B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		087B84A620E7BD3500F843D7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				087B84A820E7BD4700F843D7 /* AFNWebService.swift */,
+				087B84A720E7BD4700F843D7 /* ALFWebService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		08BDF0B820E7488E00DECF80 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				085117F920E7C57400E6EC68 /* Extensions.swift */,
+				0820906E20E7BF3400F0E402 /* Utilities.swift */,
+				0893B4B820E7B8210000B3DE /* AppStoryboards.swift */,
+				0893B4B920E7B8220000B3DE /* FFF_Tusj.ttf */,
+				0893B4B420E7B8210000B3DE /* NoActivityCell.swift */,
+				0893B4BA20E7B8220000B3DE /* NoActivityCell.xib */,
+				0893B4B520E7B8210000B3DE /* UIHelper.swift */,
+				08BDF0B920E748AC00DECF80 /* IBDesignableClasses */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		08BDF0B920E748AC00DECF80 /* IBDesignableClasses */ = {
+			isa = PBXGroup;
+			children = (
+				08BDF0C220E7496800DECF80 /* CircleProgressView.swift */,
+				08BDF0BC20E7496800DECF80 /* WAButton.swift */,
+				08BDF0C320E7496800DECF80 /* WACircularView.swift */,
+				08BDF0C420E7496900DECF80 /* WAImage.swift */,
+				08BDF0C020E7496800DECF80 /* WAImageView.swift */,
+				08BDF0BE20E7496800DECF80 /* WALabel.swift */,
+				08BDF0BD20E7496800DECF80 /* WATextField.swift */,
+				08BDF0C120E7496800DECF80 /* WATextView.swift */,
+				08BDF0BF20E7496800DECF80 /* WAView.swift */,
+			);
+			path = IBDesignableClasses;
+			sourceTree = "<group>";
+		};
+		08DCB91F2103E5120057D78D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				0893B3CB20E7A4650000B3DE /* DashboardVC.swift */,
+				08DCB9202103E53C0057D78D /* DashboardCell.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		08DCB9222103F66F0057D78D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				08DCB9232103F6890057D78D /* ProfileDetailVC.swift */,
+				08DCB9252104023C0057D78D /* ProfileVC.swift */,
+				08DCB92921048FDC0057D78D /* ProfileTVCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		76EDB4C867EE5EEDF56C4414 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC5A9ED118369C5C5F18A1E0 /* Pods-Construction.debug.xcconfig */,
+				0839307703B2BC3244033344 /* Pods-Construction.release.xcconfig */,
+				5F6EBA5763FF7677BF6FC468 /* Pods-Telus.debug.xcconfig */,
+				424E62523871E7A0FFD678F5 /* Pods-Telus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4E33C51D16066F1B8D836B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C39355D00E08C00D50BBB925 /* Pods_Construction.framework */,
+				E4ED955CA2CF0EEBBB891DC9 /* Pods_Telus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0858E43320E7406700B2A51B /* Telus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0858E45C20E7406700B2A51B /* Build configuration list for PBXNativeTarget "Telus" */;
+			buildPhases = (
+				F140558EF1D4EE109568EAC3 /* [CP] Check Pods Manifest.lock */,
+				0858E43020E7406700B2A51B /* Sources */,
+				0858E43120E7406700B2A51B /* Frameworks */,
+				0858E43220E7406700B2A51B /* Resources */,
+				7634F36B98E9F16595280C10 /* [CP] Embed Pods Frameworks */,
+				6F98C2B1A10D57ECE003888E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telus;
+			productName = Construction;
+			productReference = 0858E43420E7406700B2A51B /* Telus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0858E44720E7406700B2A51B /* TelusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0858E45F20E7406700B2A51B /* Build configuration list for PBXNativeTarget "TelusTests" */;
+			buildPhases = (
+				0858E44420E7406700B2A51B /* Sources */,
+				0858E44520E7406700B2A51B /* Frameworks */,
+				0858E44620E7406700B2A51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0858E44A20E7406700B2A51B /* PBXTargetDependency */,
+			);
+			name = TelusTests;
+			productName = ConstructionTests;
+			productReference = 0858E44820E7406700B2A51B /* TelusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0858E45220E7406700B2A51B /* TelusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0858E46220E7406700B2A51B /* Build configuration list for PBXNativeTarget "TelusUITests" */;
+			buildPhases = (
+				0858E44F20E7406700B2A51B /* Sources */,
+				0858E45020E7406700B2A51B /* Frameworks */,
+				0858E45120E7406700B2A51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0858E45520E7406700B2A51B /* PBXTargetDependency */,
+			);
+			name = TelusUITests;
+			productName = ConstructionUITests;
+			productReference = 0858E45320E7406700B2A51B /* TelusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0858E42C20E7406700B2A51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mudassir Abbas";
+				TargetAttributes = {
+					0858E43320E7406700B2A51B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					0858E44720E7406700B2A51B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0858E43320E7406700B2A51B;
+					};
+					0858E45220E7406700B2A51B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0858E43320E7406700B2A51B;
+					};
+				};
+			};
+			buildConfigurationList = 0858E42F20E7406700B2A51B /* Build configuration list for PBXProject "Telus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0858E42B20E7406700B2A51B;
+			productRefGroup = 0858E43520E7406700B2A51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0858E43320E7406700B2A51B /* Telus */,
+				0858E44720E7406700B2A51B /* TelusTests */,
+				0858E45220E7406700B2A51B /* TelusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0858E43220E7406700B2A51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0858E44220E7406700B2A51B /* LaunchScreen.storyboard in Resources */,
+				0858E43F20E7406700B2A51B /* Assets.xcassets in Resources */,
+				0893B59B20E7B8230000B3DE /* FFF_Tusj.ttf in Resources */,
+				0858E43D20E7406700B2A51B /* Main.storyboard in Resources */,
+				0893B59C20E7B8230000B3DE /* NoActivityCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858E44620E7406700B2A51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858E45120E7406700B2A51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F98C2B1A10D57ECE003888E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telus/Pods-Telus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7634F36B98E9F16595280C10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Telus/Pods-Telus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telus/Pods-Telus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F140558EF1D4EE109568EAC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0858E43020E7406700B2A51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BDF0C820E7496900DECF80 /* WAView.swift in Sources */,
+				0893B3CC20E7A4650000B3DE /* DashboardVC.swift in Sources */,
+				08DCB9212103E53C0057D78D /* DashboardCell.swift in Sources */,
+				087B84AA20E7BD4700F843D7 /* AFNWebService.swift in Sources */,
+				08BDF0CC20E7496900DECF80 /* WACircularView.swift in Sources */,
+				08BDF0C520E7496900DECF80 /* WAButton.swift in Sources */,
+				08BDF0CB20E7496900DECF80 /* CircleProgressView.swift in Sources */,
+				08BDF0CF20E7945B00DECF80 /* SignUpVC.swift in Sources */,
+				08DCB92A21048FDC0057D78D /* ProfileTVCell.swift in Sources */,
+				085117FE20E801C800E6EC68 /* FileModel.swift in Sources */,
+				08BDF0C720E7496900DECF80 /* WALabel.swift in Sources */,
+				0851180020E8074500E6EC68 /* FileCell.swift in Sources */,
+				08BDF0CA20E7496900DECF80 /* WATextView.swift in Sources */,
+				08BDF0C620E7496900DECF80 /* WATextField.swift in Sources */,
+				08BDF0CD20E7496900DECF80 /* WAImage.swift in Sources */,
+				083642942103C8A300484433 /* TabBarViewController.swift in Sources */,
+				0893B59720E7B8230000B3DE /* UIHelper.swift in Sources */,
+				08DCB9262104023C0057D78D /* ProfileVC.swift in Sources */,
+				0858E43A20E7406700B2A51B /* ViewController.swift in Sources */,
+				085117FA20E7C57400E6EC68 /* Extensions.swift in Sources */,
+				087B84A920E7BD4700F843D7 /* ALFWebService.swift in Sources */,
+				085117FC20E7FE6500E6EC68 /* FileListingVC.swift in Sources */,
+				0893B59620E7B8230000B3DE /* NoActivityCell.swift in Sources */,
+				08DCB9242103F6890057D78D /* ProfileDetailVC.swift in Sources */,
+				0893B59A20E7B8230000B3DE /* AppStoryboards.swift in Sources */,
+				08BDF0C920E7496900DECF80 /* WAImageView.swift in Sources */,
+				0858E43820E7406700B2A51B /* AppDelegate.swift in Sources */,
+				0820906F20E7BF3400F0E402 /* Utilities.swift in Sources */,
+				0893B3CE20E7B6940000B3DE /* UploadVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858E44420E7406700B2A51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0858E44D20E7406700B2A51B /* ConstructionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858E44F20E7406700B2A51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0858E45820E7406700B2A51B /* ConstructionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0858E44A20E7406700B2A51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0858E43320E7406700B2A51B /* Telus */;
+			targetProxy = 0858E44920E7406700B2A51B /* PBXContainerItemProxy */;
+		};
+		0858E45520E7406700B2A51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0858E43320E7406700B2A51B /* Telus */;
+			targetProxy = 0858E45420E7406700B2A51B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0858E43B20E7406700B2A51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0858E43C20E7406700B2A51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0858E44020E7406700B2A51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0858E44120E7406700B2A51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0858E45A20E7406700B2A51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0858E45B20E7406700B2A51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0858E45D20E7406700B2A51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6EBA5763FF7677BF6FC468 /* Pods-Telus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8SM2HLTGC;
+				INFOPLIST_FILE = "$(SRCROOT)/Telus/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HexonSolution.Construction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0858E45E20E7406700B2A51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424E62523871E7A0FFD678F5 /* Pods-Telus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8SM2HLTGC;
+				INFOPLIST_FILE = "$(SRCROOT)/Telus/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HexonSolution.Construction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0858E46020E7406700B2A51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConstructionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HexonSolution.ConstructionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telus.app/Telus";
+			};
+			name = Debug;
+		};
+		0858E46120E7406700B2A51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConstructionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HexonSolution.ConstructionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telus.app/Telus";
+			};
+			name = Release;
+		};
+		0858E46320E7406700B2A51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConstructionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HexonSolution.ConstructionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Construction;
+			};
+			name = Debug;
+		};
+		0858E46420E7406700B2A51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConstructionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HexonSolution.ConstructionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Construction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0858E42F20E7406700B2A51B /* Build configuration list for PBXProject "Telus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0858E45A20E7406700B2A51B /* Debug */,
+				0858E45B20E7406700B2A51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0858E45C20E7406700B2A51B /* Build configuration list for PBXNativeTarget "Telus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0858E45D20E7406700B2A51B /* Debug */,
+				0858E45E20E7406700B2A51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0858E45F20E7406700B2A51B /* Build configuration list for PBXNativeTarget "TelusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0858E46020E7406700B2A51B /* Debug */,
+				0858E46120E7406700B2A51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0858E46220E7406700B2A51B /* Build configuration list for PBXNativeTarget "TelusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0858E46320E7406700B2A51B /* Debug */,
+				0858E46420E7406700B2A51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0858E42C20E7406700B2A51B /* Project object */;
+}
