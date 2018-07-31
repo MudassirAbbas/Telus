@@ -10,20 +10,13 @@
 		0820906F20E7BF3400F0E402 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820906E20E7BF3400F0E402 /* Utilities.swift */; };
 		083642942103C8A300484433 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083642932103C8A300484433 /* TabBarViewController.swift */; };
 		085117FA20E7C57400E6EC68 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085117F920E7C57400E6EC68 /* Extensions.swift */; };
-		085117FC20E7FE6500E6EC68 /* FileListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085117FB20E7FE6500E6EC68 /* FileListingVC.swift */; };
-		085117FE20E801C800E6EC68 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085117FD20E801C800E6EC68 /* FileModel.swift */; };
-		0851180020E8074500E6EC68 /* FileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085117FF20E8074500E6EC68 /* FileCell.swift */; };
 		0858E43820E7406700B2A51B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E43720E7406700B2A51B /* AppDelegate.swift */; };
-		0858E43A20E7406700B2A51B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E43920E7406700B2A51B /* ViewController.swift */; };
 		0858E43D20E7406700B2A51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0858E43B20E7406700B2A51B /* Main.storyboard */; };
 		0858E43F20E7406700B2A51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0858E43E20E7406700B2A51B /* Assets.xcassets */; };
 		0858E44220E7406700B2A51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0858E44020E7406700B2A51B /* LaunchScreen.storyboard */; };
 		0858E44D20E7406700B2A51B /* ConstructionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E44C20E7406700B2A51B /* ConstructionTests.swift */; };
 		0858E45820E7406700B2A51B /* ConstructionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858E45720E7406700B2A51B /* ConstructionUITests.swift */; };
-		087B84A920E7BD4700F843D7 /* ALFWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B84A720E7BD4700F843D7 /* ALFWebService.swift */; };
-		087B84AA20E7BD4700F843D7 /* AFNWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B84A820E7BD4700F843D7 /* AFNWebService.swift */; };
 		0893B3CC20E7A4650000B3DE /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B3CB20E7A4650000B3DE /* DashboardVC.swift */; };
-		0893B3CE20E7B6940000B3DE /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B3CD20E7B6940000B3DE /* UploadVC.swift */; };
 		0893B59620E7B8230000B3DE /* NoActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B4B420E7B8210000B3DE /* NoActivityCell.swift */; };
 		0893B59720E7B8230000B3DE /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B4B520E7B8210000B3DE /* UIHelper.swift */; };
 		0893B59A20E7B8230000B3DE /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0893B4B820E7B8210000B3DE /* AppStoryboards.swift */; };
@@ -38,7 +31,6 @@
 		08BDF0CB20E7496900DECF80 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0C220E7496800DECF80 /* CircleProgressView.swift */; };
 		08BDF0CC20E7496900DECF80 /* WACircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0C320E7496800DECF80 /* WACircularView.swift */; };
 		08BDF0CD20E7496900DECF80 /* WAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0C420E7496900DECF80 /* WAImage.swift */; };
-		08BDF0CF20E7945B00DECF80 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDF0CE20E7945B00DECF80 /* SignUpVC.swift */; };
 		08DCB9212103E53C0057D78D /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCB9202103E53C0057D78D /* DashboardCell.swift */; };
 		08DCB9242103F6890057D78D /* ProfileDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCB9232103F6890057D78D /* ProfileDetailVC.swift */; };
 		08DCB9262104023C0057D78D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCB9252104023C0057D78D /* ProfileVC.swift */; };
@@ -69,12 +61,8 @@
 		083642932103C8A300484433 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		0839307703B2BC3244033344 /* Pods-Construction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Construction.release.xcconfig"; path = "Pods/Target Support Files/Pods-Construction/Pods-Construction.release.xcconfig"; sourceTree = "<group>"; };
 		085117F920E7C57400E6EC68 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		085117FB20E7FE6500E6EC68 /* FileListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListingVC.swift; sourceTree = "<group>"; };
-		085117FD20E801C800E6EC68 /* FileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
-		085117FF20E8074500E6EC68 /* FileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCell.swift; sourceTree = "<group>"; };
 		0858E43420E7406700B2A51B /* Telus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0858E43720E7406700B2A51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0858E43920E7406700B2A51B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0858E43C20E7406700B2A51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0858E43E20E7406700B2A51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0858E44120E7406700B2A51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,10 +73,7 @@
 		0858E45320E7406700B2A51B /* TelusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0858E45720E7406700B2A51B /* ConstructionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructionUITests.swift; sourceTree = "<group>"; };
 		0858E45920E7406700B2A51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		087B84A720E7BD4700F843D7 /* ALFWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALFWebService.swift; sourceTree = "<group>"; };
-		087B84A820E7BD4700F843D7 /* AFNWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFNWebService.swift; sourceTree = "<group>"; };
 		0893B3CB20E7A4650000B3DE /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
-		0893B3CD20E7B6940000B3DE /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
 		0893B4B420E7B8210000B3DE /* NoActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoActivityCell.swift; sourceTree = "<group>"; };
 		0893B4B520E7B8210000B3DE /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		0893B4B820E7B8210000B3DE /* AppStoryboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
@@ -103,7 +88,6 @@
 		08BDF0C220E7496800DECF80 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		08BDF0C320E7496800DECF80 /* WACircularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WACircularView.swift; sourceTree = "<group>"; };
 		08BDF0C420E7496900DECF80 /* WAImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAImage.swift; sourceTree = "<group>"; };
-		08BDF0CE20E7945B00DECF80 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		08DCB9202103E53C0057D78D /* DashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
 		08DCB9232103F6890057D78D /* ProfileDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailVC.swift; sourceTree = "<group>"; };
 		08DCB9252104023C0057D78D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -175,7 +159,6 @@
 		0858E43620E7406700B2A51B /* Telus */ = {
 			isa = PBXGroup;
 			children = (
-				087B84A620E7BD3500F843D7 /* Network */,
 				0858E46520E7407600B2A51B /* Application */,
 				08BDF0B820E7488E00DECF80 /* Utilities */,
 				0858E46620E7408800B2A51B /* Controllers */,
@@ -217,12 +200,6 @@
 				08DCB9222103F66F0057D78D /* Profile */,
 				08DCB91F2103E5120057D78D /* Dashboard */,
 				083642922103C85400484433 /* MainTabView */,
-				0858E43920E7406700B2A51B /* ViewController.swift */,
-				08BDF0CE20E7945B00DECF80 /* SignUpVC.swift */,
-				0893B3CD20E7B6940000B3DE /* UploadVC.swift */,
-				085117FB20E7FE6500E6EC68 /* FileListingVC.swift */,
-				085117FD20E801C800E6EC68 /* FileModel.swift */,
-				085117FF20E8074500E6EC68 /* FileCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -235,15 +212,6 @@
 				0858E44020E7406700B2A51B /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		087B84A620E7BD3500F843D7 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				087B84A820E7BD4700F843D7 /* AFNWebService.swift */,
-				087B84A720E7BD4700F843D7 /* ALFWebService.swift */,
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 		08BDF0B820E7488E00DECF80 /* Utilities */ = {
@@ -518,32 +486,24 @@
 				08BDF0C820E7496900DECF80 /* WAView.swift in Sources */,
 				0893B3CC20E7A4650000B3DE /* DashboardVC.swift in Sources */,
 				08DCB9212103E53C0057D78D /* DashboardCell.swift in Sources */,
-				087B84AA20E7BD4700F843D7 /* AFNWebService.swift in Sources */,
 				08BDF0CC20E7496900DECF80 /* WACircularView.swift in Sources */,
 				08BDF0C520E7496900DECF80 /* WAButton.swift in Sources */,
 				08BDF0CB20E7496900DECF80 /* CircleProgressView.swift in Sources */,
-				08BDF0CF20E7945B00DECF80 /* SignUpVC.swift in Sources */,
 				08DCB92A21048FDC0057D78D /* ProfileTVCell.swift in Sources */,
-				085117FE20E801C800E6EC68 /* FileModel.swift in Sources */,
 				08BDF0C720E7496900DECF80 /* WALabel.swift in Sources */,
-				0851180020E8074500E6EC68 /* FileCell.swift in Sources */,
 				08BDF0CA20E7496900DECF80 /* WATextView.swift in Sources */,
 				08BDF0C620E7496900DECF80 /* WATextField.swift in Sources */,
 				08BDF0CD20E7496900DECF80 /* WAImage.swift in Sources */,
 				083642942103C8A300484433 /* TabBarViewController.swift in Sources */,
 				0893B59720E7B8230000B3DE /* UIHelper.swift in Sources */,
 				08DCB9262104023C0057D78D /* ProfileVC.swift in Sources */,
-				0858E43A20E7406700B2A51B /* ViewController.swift in Sources */,
 				085117FA20E7C57400E6EC68 /* Extensions.swift in Sources */,
-				087B84A920E7BD4700F843D7 /* ALFWebService.swift in Sources */,
-				085117FC20E7FE6500E6EC68 /* FileListingVC.swift in Sources */,
 				0893B59620E7B8230000B3DE /* NoActivityCell.swift in Sources */,
 				08DCB9242103F6890057D78D /* ProfileDetailVC.swift in Sources */,
 				0893B59A20E7B8230000B3DE /* AppStoryboards.swift in Sources */,
 				08BDF0C920E7496900DECF80 /* WAImageView.swift in Sources */,
 				0858E43820E7406700B2A51B /* AppDelegate.swift in Sources */,
 				0820906F20E7BF3400F0E402 /* Utilities.swift in Sources */,
-				0893B3CE20E7B6940000B3DE /* UploadVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
